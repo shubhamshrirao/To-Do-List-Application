@@ -1,0 +1,75 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.input-container input[type="text"] {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+
+.input-container button {
+  padding: 5px 10px;
+  font-size: 18px;
+  border: none;
+  background-color: #4CAF50;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.folder-container {
+  margin-top: 20px;
+}
+
+.folder-container h2 {
+  margin-bottom: 10px;
+}
+
+.folder {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.folder-input {
+  flex-grow: 1;
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.folder-btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+.strike {
+  text-decoration: line-through;
+}
